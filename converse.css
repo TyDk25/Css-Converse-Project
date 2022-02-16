@@ -1,0 +1,90 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+h2 {
+    margin: auto;
+    padding: 15 0;
+    font-style: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #f7f7f7;
+
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+article {
+    width: 825px;
+    border: solid black;
+    margin: 50px auto;
+}
+
+a:link {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.money {
+    font-size: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 10;
+}
+
+.shipping {
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #777;
+    margin-top: 0;
+}
+
+.list {
+
+    list-style: square;
+}
+
+.divb {
+
+    text-align: center;
+    background-color: black;
+    border-top: solid black;
+}
+
+.shoes {
+    padding-top: 15px;
+}
+
+button {
+
+    border-top: solid black;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0 0;
+    cursor: pointer;
+    display: block;
+    padding: 15;
+
+}
+
+button:hover {
+    color: black;
+    width: 100%;
+    background-color: white;
+
+}
