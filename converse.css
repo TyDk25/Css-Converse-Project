@@ -1,90 +1,143 @@
 body {
-    font-family: sans-serif;
-    line-height: 1.4;
+  font-family: sans-serif;
+  line-height: 1.4;
 }
 
 h2 {
-    margin: auto;
-    padding: 15 0;
-    font-style: sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    background-color: #f7f7f7;
-
+  margin: auto;
+  padding: 15 0;
+  font-style: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #f7f7f7;
+  position: relative;
 }
 
 h3 {
-    text-transform: uppercase;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.product {
+  position: relative;
+}
+
+.sale {
+  background-color: rgb(247, 70, 70);
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -38px;
+}
+
+.colors {
+  background-color: black;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px
+} 
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-red {
+  background-color: rgb(247, 70, 70);
+}
+
+.color-yellow {
+  background-color: rgb(248, 224, 7);
+}
+
+.color-green {
+  background-color: greenyellow;
+}
+
+.color-brown {
+  background-color: brown;
 }
 
 article {
-    width: 825px;
-    border: solid black;
-    margin: 50px auto;
+  width: 825px;
+  border: solid black;
+  margin: 50px auto;
 }
 
 a:link {
-    color: black;
-    text-decoration: underline;
+  color: black;
+  text-decoration: underline;
 }
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:visited {
-    color: black;
+  color: black;
 }
 
 .money {
-    font-size: 30px;
-    padding-bottom: 0px;
-    margin-bottom: 10;
+  font-size: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 10;
 }
 
 .shipping {
-    text-transform: uppercase;
-    font-size: 11px;
-    color: #777;
-    margin-top: 0;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #777;
+  margin-top: 0;
 }
 
-.list {
 
-    list-style: square;
+
+.list {
+  list-style: square;
 }
 
 .divb {
-
-    text-align: center;
-    background-color: black;
-    border-top: solid black;
+  text-align: center;
+  background-color: black;
+  border-top: solid black;
 }
 
 .shoes {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
+                          
 button {
-
-    border-top: solid black;
-    background-color: transparent;
-    border: none;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    width: 100%;
-    margin: 0 0;
-    cursor: pointer;
-    display: block;
-    padding: 15;
-
+  border-top: solid black;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  margin: 0 0;
+  cursor: pointer;
+  display: block;
+  padding: 15;
 }
 
 button:hover {
-    color: black;
-    width: 100%;
-    background-color: white;
+  color: black;
+  width: 100%;
+  background-color: white;
+}
 
+.more-info:link, .more-info:visited {
+     color: black;
+     display: inline-block;
+     margin-bottom: 30px;
 }
